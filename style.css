@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(4, 57, 82);
+    color: rgb(25, 125, 212);}
+
+nav{
+    background-color: rgb(71, 145, 206);
+    padding: 0px 13px;}
+
+ul{list-style-type: none;}
+
+li{display: inline;}
+
+a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(252, 252, 252);
+    padding: 0px 10px;}
+
+a:hover{
+    color: rgb(1, 35, 54);
+    text-decoration: none;}
+
+.destaque{
+    width: 100%;
+    height: 400px;
+    background: url(./imagens/paisagem5.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-attachment: fixed; 
+    border-radius:7px;
+}
+
+
+footer{
+    color: aliceblue;
+    text-align: center;
+}
+
+.info{
+    color: aliceblue;
+}
+
+
+.conteudo{color: aliceblue;}
+
+.conteudo h2{
+    color: rgb(114, 153, 211);
+}
+
+.index{
+    color: aliceblue;
+    font-size: 20px;
+}
+.index h1{
+    font-size: 25px;
+}
